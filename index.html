@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Calculator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Binary Calculator By JavaScript</h1>
+    <p id="res"></p>
+        <div id="btns">
+        <button type="button" id="btn0" class="digits" onclick="handleDigit(event)">0</button>
+        <button type="button" id="btn1" class="digits" onclick="handleDigit(event)">1</button>
+        <button type="button" id="btnClr" class="controlRes" onclick="clearAll()">C</button>
+        <button type="button" id="btnEql" class="controlRes" onclick="calculate()">=</button>
+        <button type="button" id="btnSum" class="operands" onclick="getOparand(event)">+</button>
+        <button type="button" id="btnSub" class="operands" onclick="getOparand(event)">-</button>
+        <button type="button" id="btnMul" class="operands" onclick="getOparand(event)">*</button>
+        <button type="button" id="btnDiv" class="operands" onclick="getOparand(event)">/</button>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
